@@ -1,0 +1,26 @@
+{
+  "name": "node-dice",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "dice rolling module",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "./bin/cli.js --sides=6 --dice=1 --rolls=10"
+  },
+  "bin": {
+	  "roll-dice": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-bjhites.git"
+  },
+  "author": "bjhites",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-bjhites/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-bjhites#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
